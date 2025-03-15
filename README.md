@@ -58,12 +58,12 @@ Heart disease remains the leading cause of death among men, women, and most raci
 
 <table>
   <tr>
-    <td><img src="knn_confusion_matrix.png" width="400"></td>
-    <td><img src="knn_auc_roc.png" width="400"></td>
+    <td><img src="images/knn_confusion_matrix.png" width="400"></td>
+    <td><img src="images/knn_auc_roc.png" width="400"></td>
   </tr>
   <tr>
-    <td><img src="knn_precision_recall.png" width="400"></td>
-    <td><img src="knn_pr_thresh.png" width="400"></td>
+    <td><img src="images/knn_precision_recall.png" width="400"></td>
+    <td><img src="images/knn_pr_thresh.png" width="400"></td>
   </tr>
 </table>
 
