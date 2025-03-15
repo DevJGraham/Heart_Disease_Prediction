@@ -24,13 +24,13 @@ Heart disease remains the leading cause of death among men, women, and most raci
 ### Workflow
 1. Explore the Data
     - Bar charts & KDE distributions with hue set to "Heart Disease" for breakdown.
-2. Check for Multicollinearity 🔍
+2. Check for Multicollinearity
     - Variance Inflation Factor (VIF) + heatmap analysis.
 3. Identify Key Features
     - Odds Ratios to determine statistically significant predictors.
 4. Further Exploration
     - EDA on the top four most significant features from the log odds ratios.
-5. Preprocessing for Modeling 🔄
+5. Preprocessing for Modeling
     - Standardization + One-Hot Encoding.
 6. Build models
     - Random Forest 🌲🌲🌲
@@ -69,7 +69,7 @@ Heart disease remains the leading cause of death among men, women, and most raci
 
 ## Findings
 ### Feature Importance Across Models
-Feature importance varied significantly across different models, highlighting the complexity of the dataset. The top four most influential features were:
+Feature importance varied across different models. The top four most influential features were:
 - Resting BP (AdaBoost)
 - ST_Slope (Up) (XGBoost & Random Forest)
 - Cholesterol (KNN)
