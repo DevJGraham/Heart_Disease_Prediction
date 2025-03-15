@@ -23,28 +23,28 @@ Heart disease remains the leading cause of death among men, women, and most raci
 **Key Questions:** Can the available electronic health record (EHR) data effectively predict heart disease? Which features contribute most significantly?
 ### Workflow
 1. Explore the Data
-- Bar charts & KDE distributions with hue set to "Heart Disease" for breakdown.
+    - Bar charts & KDE distributions with hue set to "Heart Disease" for breakdown.
 2. Check for Multicollinearity 🔍
-- Variance Inflation Factor (VIF) + heatmap analysis.
+    - Variance Inflation Factor (VIF) + heatmap analysis.
 3. Identify Key Features
-- Odds Ratios to determine statistically significant predictors.
+    - Odds Ratios to determine statistically significant predictors.
 4. Further Exploration
-- EDA on the top four most significant features from the log odds ratios.
+    - EDA on the top four most significant features from the log odds ratios.
 5. Preprocessing for Modeling 🔄
-- Standardization + One-Hot Encoding.
+    - Standardization + One-Hot Encoding.
 6. Build models
-- Random Forest 🌲🌲🌲
-- Logistic Regression 🔀📈 
-- XGBoost ⚡📈
-- ADA Boost 🚀📈
-- K Nearest Neighbors 📍
+    - Random Forest 🌲🌲🌲
+    - Logistic Regression 🔀📈 
+    - XGBoost ⚡📈
+    - ADA Boost 🚀📈
+    - K Nearest Neighbors 📍
 7. Evaluate Model Performance 
-- Classification Report
-- Confusion Matrix
-- ROC-AUC Curve
-- Precision & Recall vs Threshold
+    - Classification Report
+    - Confusion Matrix
+    - ROC-AUC Curve
+    - Precision & Recall vs Threshold
 8. Extract Feature Importance 🔑
-- Identified the Top 10 contributing factors.
+    - Identified the Top 10 contributing factors.
 
 ## Best Performing Model 🏆
 - Model: K-Nearest Neighbors (KNN)
@@ -55,6 +55,17 @@ Heart disease remains the leading cause of death among men, women, and most raci
     - Precision: 0.90
     - Recall: 0.92
     - F1 Score: 0.91
+
+<table>
+  <tr>
+    <td><img src="knn_confusion_matrix.png" width="400"></td>
+    <td><img src="knn_auc_roc.png" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="knn_precision_recall.png" width="400"></td>
+    <td><img src="knn_pr_thresh.png" width="400"></td>
+  </tr>
+</table>
 
 ## Findings
 ### Feature Importance Across Models
@@ -69,5 +80,5 @@ Feature importance varied significantly across different models, highlighting th
 
 1. Clone this repository to your local machine.
 2. Download dataset from [Kaggle](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
-3. **Reach out!** Questions? Let’s connect on [LinkedIn](www.linkedin.com/in/davidgraham-cs)
+3. **Reach out!** Questions? Let’s connect on [LinkedIn](https://www.linkedin.com/in/davidgraham-cs/)
 
